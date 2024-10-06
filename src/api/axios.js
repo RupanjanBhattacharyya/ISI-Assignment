@@ -1,5 +1,5 @@
 import axios from 'axios';
-import Home from './components/Home';
+import Home from '../components/Home';
 try {
       const response = await axios.get(`http://152.67.176.72:8081/userauth?username=${username}&password=${password}`);
 
