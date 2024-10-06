@@ -5,7 +5,7 @@ try {
 
       if (response.data["auth"] == true) {
         // Redirect to dashboard on successful login
-        navigate('/dashboard');
+        navigate('Home');
       } else {
         // Show error message if credentials are incorrect
         setError('Invalid username or password');
